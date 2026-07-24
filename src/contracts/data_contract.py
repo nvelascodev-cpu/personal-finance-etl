@@ -9,8 +9,8 @@ COLUMNS = [
 ]
 
 EXPECTED_TYPES = {
-    "id": "int64",
-    "fecha": "string",
+    "id": "Int64",
+    "fecha": "datetime",
     "tipo": "string",
     "categoria": "string",
     "descripcion": "string",

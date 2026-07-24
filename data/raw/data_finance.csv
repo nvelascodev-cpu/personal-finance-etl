@@ -14,6 +14,7 @@ id,fecha,tipo,categoria,descripcion,monto,modo_pago
 11,2026-07-10,Ingreso,Freelance,Proyecto Python,650000,
 12,2026-13-01,Gasto,Transporte,Peaje,-18000,Efectivo
 13,2026-07-12,GASTO,Alimentación,Almuerzo,-25000,Efectivo
+,2026-07-12,GASTO,Alimentación,Almuerzo,-25000,Efectivo
 14,2026-07-13,Ingreso,Salario,,2500000,Transferencia
 15,2026-07-13,Ingreso,Salario,Nómina julio,2500000,Transferencia
 15,2026-07-13,Ingreso,Salario,Nómina julio,2500000,Transferencia
