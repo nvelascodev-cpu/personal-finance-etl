@@ -2,6 +2,7 @@ id,fecha,tipo,categoria,descripcion,monto,modo_pago
 1,2026-07-01,Gasto,Alimentación,Compra supermercado,-185000,Efectivo
 7,,gasto,Alimentación,Restaurante,-65000,Tarjeta
 2,2026-07-02,Ingreso  ,Salario,Nómina julio,2500000,Transferencia
+,,,,,,
 3,2026-07-03,Gasto,  Transporte,Gasolina,-70000,Tarjeta
 4,2026-07-04,Gasto,Salud,Medicamentos,-45000,Efectivo
 5,2026-07-05,Ingreso,Ventas,Venta computador,1200000,Transferencia
