@@ -20,7 +20,6 @@ TYPE_CONVERTERS = {
     "string":to_string,
 }
 
-
 def convert_data_types(df,expected_types):
     for column, expected_type in expected_types.items():
         if column in df.columns:
@@ -34,9 +33,20 @@ def convert_data_types(df,expected_types):
 
     return  df  
 
+def normalize_text(df):
+    for column in df.columns:
+        if df[column].dtype == "string":
+            df[column] = (df[column] 
+            .str.strip()
+            .str.replace(r"\s+"," ", regex=True) #Elimina dos espacios consecutivos
+            .str.title()
+            )
+    return df
+
 def tansform(df):
     df_transform = df.copy()
 
     df_transform = convert_data_types(df_transform,data_contract.EXPECTED_TYPES)
+    df_transform = normalize_text(df_transform)
 
     return df_transform

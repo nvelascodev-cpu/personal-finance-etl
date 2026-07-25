@@ -1,6 +1,6 @@
 from src.contracts import data_contract
 import pandas as pd
-def get_invalid_values(df, valid_values):
+def get_invalid_values(df, valid_values): #Los invalidos están definidos en el contrato
         invalid_values={}
 
         for column, allowed_values in valid_values.items():
@@ -27,7 +27,7 @@ def analyze_dataframe(df):
                         "count":int(df['id'].duplicated().sum()),
                         "duplicates_ids":df["id"][df["id"].duplicated()].unique().tolist()
         },
-        "invalid_values": get_invalid_values(df,data_contract.VALID_VALUES) 
+        "invalid_values": get_invalid_values(df,data_contract.VALID_VALUES) #Son invalidos definidos en el contraro
         
     }
 

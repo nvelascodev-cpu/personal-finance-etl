@@ -1,21 +1,21 @@
 id,fecha,tipo,categoria,descripcion,monto,modo_pago
 1,2026-07-01,Gasto,Alimentación,Compra supermercado,-185000,Efectivo
-7,,Gasto,Alimentación,Restaurante,-65000,Tarjeta
-2,2026-07-02,Ingreso,Salario,Nómina julio,2500000,Transferencia
-3,2026-07-03,Gasto,Transporte,Gasolina,-70000,Tarjeta
+7,,gasto,Alimentación,Restaurante,-65000,Tarjeta
+2,2026-07-02,Ingreso  ,Salario,Nómina julio,2500000,Transferencia
+3,2026-07-03,Gasto,  Transporte,Gasolina,-70000,Tarjeta
 4,2026-07-04,Gasto,Salud,Medicamentos,-45000,Efectivo
 5,2026-07-05,Ingreso,Ventas,Venta computador,1200000,Transferencia
 6,05/07/2026,Gasto,Ocio,Cine,-38000,Efectivo
-7,,Gasto,Alimentación,Restaurante,-65000,Tarjeta
+7,,Gasto,Alimentación,Restaurante ,-65000, Tarjeta
+8,2026-07-07,  Gasto  ,,Compra ropa,-210000,T arjeta
 8,2026-07-07,Gasto,,Compra ropa,-210000,Tarjeta
-8,2026-07-07,Gasto,,Compra ropa,-210000,Tarjeta
-9,2026-07-08,Gasto,Hogar,Compra silla,abc,Efectivo
-10,2026-07-09,Gasto,Servicios,Pago internet,95000,Efectivoooo
+9,2026-07-08,Gasto,Hogar,Compra silla,abc,efectivo
+10,2026-07-09,Ga sto,Servicios,Pago internet,95000,Efectivoooo
 11,2026-07-10,Ingreso,Freelance,Proyecto Python,650000,
 12,2026-13-01,Gasto,Transporte,Peaje,-18000,Efectivo
-13,2026-07-12,GASTO,Alimentación,Almuerzo,-25000,Efectivo
-,2026-07-12,GASTO,Alimentación,Almuerzo,-25000,Efectivo
-14,2026-07-13,Ingreso,Salario,,2500000,Transferencia
+13,2026-07-12,GASTO,Alimentación,Almuerzo,-25000, Efectivo
+,2026-07-12,GASTOoo,Alimentación,Almuerzo,-25000,Efec                                     tivo
+14,2026-07-13,no es Ingreso,Salario,,2500000, Transfer encia
 15,2026-07-13,Ingreso,Salario,Nómina julio,2500000,Transferencia
-15,2026-07-13,Ingreso,Salario,Nómina julio,2500000,Transferencia
+15,2026-07-13,Ingreso,     Salario    , nómina julio,2500000,Transferencia
 

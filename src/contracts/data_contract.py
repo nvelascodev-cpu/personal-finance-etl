@@ -23,5 +23,10 @@ VALID_VALUES = {
         "Efectivo",
         "Transferencia",
         "Tarjeta"
+    ],
+    "tipo": [
+        "Gasto",
+        "Ingreso",
+        
     ]
 }
