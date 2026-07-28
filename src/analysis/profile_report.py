@@ -1,4 +1,3 @@
-
 def print_dict_list_value(value, indent=0): #Recursividad
     space = " " * indent
 
